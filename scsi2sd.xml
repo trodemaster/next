@@ -93,7 +93,7 @@
 	Drive geometry settings.
 	********************************************************* -->
 
-	<scsiSectors>3891200</scsiSectors>
+	<scsiSectors>4194304</scsiSectors>
 	<bytesPerSector>512</bytesPerSector>
 	<sectorsPerTrack>139</sectorsPerTrack>
 	<headsPerCylinder>4</headsPerCylinder>
@@ -122,7 +122,7 @@
 
 </SCSITarget>
 <SCSITarget id="1">
-	<enabled>false</enabled>
+	<enabled>true</enabled>
 
 	<!-- ********************************************************
 	Space separated list. Available options:
@@ -138,7 +138,7 @@
 	0x2    Optical drive  (ie. CD drive).
 	0x3    1.44MB Floppy Drive.
 	********************************************************* -->
-	<deviceType>0x0</deviceType>
+	<deviceType>0x2</deviceType>
 
 
 	<!-- ********************************************************
@@ -153,14 +153,14 @@
 	<!-- ********************************************************
 	SD card offset, as a sector number (always 512 bytes).
 	********************************************************* -->
-	<sdSectorStart>0</sdSectorStart>
+	<sdSectorStart>4194304</sdSectorStart>
 
 
 	<!-- ********************************************************
 	Drive geometry settings.
 	********************************************************* -->
 
-	<scsiSectors>4194303</scsiSectors>
+	<scsiSectors>1000352</scsiSectors>
 	<bytesPerSector>512</bytesPerSector>
 	<sectorsPerTrack>63</sectorsPerTrack>
 	<headsPerCylinder>255</headsPerCylinder>
